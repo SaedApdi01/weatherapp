@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+ background-image: url(https://gtwallpaper.org/sites/default/files/wallpaper/159418/4k-colorful-sunset-wallpapers-159418-2382-3016954.png);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.weather-container {
+  background-color: rgba(0, 0, 0, 0.881); /* Neon blue background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 98, 1, 0.979);
+  padding: 20px;
+  width: 400px;
+}
+
+.weather-info {
+  text-align: center;
+  color: #fff;
+}
+
+.weather-icon {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  background-color: #000; /* Black input background */
+  border: 2px solid #00f; /* Neon blue border */
+  border-radius: 5px 0 0 5px;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  width: 250px;
+}
+
+input[type="text"]::placeholder {
+  color: #fff;
+}
+
+button {
+  background-color: #00f; /* Neon blue button */
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.temperature {
+  margin-bottom: 20px;
+}
+
+.temperature p {
+  margin: 5px 0;
+}
+
+.condition {
+  font-weight: bold;
+}
+
+
+#messege{
+  padding: 10px;
+  margin: 10px;
+}
